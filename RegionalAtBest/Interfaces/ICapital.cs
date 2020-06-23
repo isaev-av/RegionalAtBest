@@ -9,6 +9,6 @@ namespace RegionalAtBest.Interfaces
     /// </summary>
     interface ICapital
     {
-        public string ***REMOVED***;
+        public string getCapital();
     }
 }

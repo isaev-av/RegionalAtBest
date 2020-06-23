@@ -41,7 +41,7 @@ namespace RegionalAtBest
             Console.OutputEncoding = Encoding.Unicode;
 
             Console.WriteLine($"The biggest company: {company.getBiggestCompany()}");
-            Console.WriteLine($"Capital: {capital.***REMOVED***}");
+            Console.WriteLine($"Capital: {capital.getCapital()}");
             Console.WriteLine($"Currency: {currency.getCurrency()}");
             Console.WriteLine($"Flag colors: {flagColors.getFlagColors()}");
             Console.WriteLine($"Foundation year: {foundationYear.getFoundationYear()}");

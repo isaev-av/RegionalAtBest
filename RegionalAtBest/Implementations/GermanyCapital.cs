@@ -7,7 +7,7 @@ namespace RegionalAtBest.Implementations
 {
     class GermanyCapital : ICapital
     {
-        public string ***REMOVED***
+        public string getCapital()
         {
             return "Berlin";
         }

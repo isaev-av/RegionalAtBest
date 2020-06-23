@@ -7,7 +7,7 @@ namespace RegionalAtBest.Implementations
 {
     class ChinaCapital : ICapital
     {
-        public string ***REMOVED***
+        public string getCapital()
         {
             return "Beijing";
         }
