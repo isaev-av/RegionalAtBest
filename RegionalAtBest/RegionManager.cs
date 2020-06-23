@@ -6,6 +6,9 @@ using ***REMOVED***;
 
 namespace RegionalAtBest
 {
+    /// <summary>
+    /// Manager for operation with region options
+    /// </summary>
     class RegionManager
     {
         string Region { get; set; }
@@ -30,6 +33,9 @@ namespace RegionalAtBest
             SetRegionOptions();
         }
 
+        /// <summary>
+        /// Prints all regio options
+        /// </summary>
         internal void PrintRegionOption()
         {
             Console.OutputEncoding = Encoding.Unicode;
@@ -46,6 +52,9 @@ namespace RegionalAtBest
             Console.WriteLine($"Type of country: {typeOfCountry.getTypeOfCountry()}");
         }
 
+        /// <summary>
+        /// Defines the factory depending of region
+        /// </summary>
         private void DefineFactory()
         {
             Factory = Region switch
@@ -57,6 +66,9 @@ namespace RegionalAtBest
             };
         }
 
+        /// <summary>
+        /// Set options for the region
+        /// </summary>
         private void SetRegionOptions()
         {
             company = Factory.CreateBiggestCompany();
